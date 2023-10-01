@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page {
+    background-color: rgb(203, 197, 197);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.card {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40rem;
+    width: 25rem;
+    background-color:white;
+    border: 1rem solid whitesmoke;
+    border-radius: 1rem;
+    margin: 20rem 30rem;
+    padding: 1rem;
+}
+
+.top-heart, .center-heart, .bottom-heart {
+   color: red;
+}
+
+.top-heart, .bottom-heart {
+    display: flex;
+    flex-direction: column;
+    font-size: 3rem;
+}
+
+.center-heart {
+    align-self: center;
+    font-size: 7rem;
+}
+
+.bottom-heart {
+    rotate: 180deg;
+}
